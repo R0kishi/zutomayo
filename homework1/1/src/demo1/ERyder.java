@@ -5,7 +5,6 @@ public class ERyder {
     private int batteryLevel;
     private boolean isAvailable;
     private double kmDriven;
-
     public  ERyder(){
           this.bikeID="unknown";
           this.batteryLevel=0;
@@ -24,7 +23,6 @@ public class ERyder {
     public String getBikeID(){
         return this.bikeID;
     };
-
     public void setAvailable(boolean available) {
         this.isAvailable = available;
     };
@@ -61,6 +59,7 @@ public class ERyder {
         System.out.println("Kilometers Driven: " + kmDriven + " km");
     };
 }
+
 
 
 
