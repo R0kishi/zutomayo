@@ -88,6 +88,7 @@ public class ERyder {
         System.out.println("Linked Account: " + LINKED_ACCOUNT);
         System.out.println("Linked Phone Number: " + LINKED_PHONE_NUMBER);
         System.out.println("Company Name: " + COMPANY_NAME);
+        System.out.println("Bike ID: " + bikeID);
     }
      public void printBikeDetails() {
         System.out.println("Bike ID: " + bikeID);
@@ -96,5 +97,6 @@ public class ERyder {
         System.out.println("Kilometers Driven: " + kmDriven + " km");
     };
 }
+
 
 
